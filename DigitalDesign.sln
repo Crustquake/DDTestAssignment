@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalDesign.Data", "DigitalDesign.Data\DigitalDesign.Data.csproj", "{927488D8-9A78-4823-A21B-C48CF06F496F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalDesign", "DigitalDesign\DigitalDesign.csproj", "{BABD646E-22BA-428A-B0E7-3A3A5CDC0427}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{927488D8-9A78-4823-A21B-C48CF06F496F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{927488D8-9A78-4823-A21B-C48CF06F496F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{927488D8-9A78-4823-A21B-C48CF06F496F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{927488D8-9A78-4823-A21B-C48CF06F496F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BABD646E-22BA-428A-B0E7-3A3A5CDC0427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABD646E-22BA-428A-B0E7-3A3A5CDC0427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABD646E-22BA-428A-B0E7-3A3A5CDC0427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABD646E-22BA-428A-B0E7-3A3A5CDC0427}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB3FC067-0E78-45CF-BA3E-986DD9971A04}
+	EndGlobalSection
+EndGlobal
