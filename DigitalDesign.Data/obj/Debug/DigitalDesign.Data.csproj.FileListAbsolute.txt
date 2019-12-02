@@ -1,0 +1,13 @@
+D:\Programming\Visual Studio\DDTestAssignment\DigitalDesign.Data\bin\Debug\DigitalDesign.Data.dll
+D:\Programming\Visual Studio\DDTestAssignment\DigitalDesign.Data\bin\Debug\DigitalDesign.Data.pdb
+D:\Programming\Visual Studio\DDTestAssignment\DigitalDesign.Data\bin\Debug\EntityFramework.dll
+D:\Programming\Visual Studio\DDTestAssignment\DigitalDesign.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programming\Visual Studio\DDTestAssignment\DigitalDesign.Data\bin\Debug\Newtonsoft.Json.dll
+D:\Programming\Visual Studio\DDTestAssignment\DigitalDesign.Data\bin\Debug\EntityFramework.xml
+D:\Programming\Visual Studio\DDTestAssignment\DigitalDesign.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Programming\Visual Studio\DDTestAssignment\DigitalDesign.Data\bin\Debug\Newtonsoft.Json.xml
+D:\Programming\Visual Studio\DDTestAssignment\DigitalDesign.Data\obj\Debug\DigitalDesign.Data.Migrations.Initial.resources
+D:\Programming\Visual Studio\DDTestAssignment\DigitalDesign.Data\obj\Debug\DigitalDesign.Data.csproj.GenerateResource.cache
+D:\Programming\Visual Studio\DDTestAssignment\DigitalDesign.Data\obj\Debug\DigitalDesign.Data.csproj.CopyComplete
+D:\Programming\Visual Studio\DDTestAssignment\DigitalDesign.Data\obj\Debug\DigitalDesign.Data.dll
+D:\Programming\Visual Studio\DDTestAssignment\DigitalDesign.Data\obj\Debug\DigitalDesign.Data.pdb

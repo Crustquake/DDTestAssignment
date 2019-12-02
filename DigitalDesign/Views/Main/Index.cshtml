@@ -1,5 +1,23 @@
-﻿<div class="row">
-    <div class="col-12">
-        @Html.Partial("_KendoProductsTable")
+﻿@using DigitalDesign.Models
+
+@model ProductsViewModel
+
+    <div class="row pt-4">
+        <div class="col-lg-10">
+            @foreach (var priceType in Model.PriceTypes)
+            {
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" id="priceType_@priceType.Id">
+                    <label class="form-check-label" for="priceType_@priceType.Id">@priceType.Name</label>
+                </div>
+            }
+        </div>
+        <div class="col-lg-2">
+            <button type="submit" class="btn btn-primary">Redraw Grid</button>
+        </div>
     </div>
-</div>
+    <div class="row">
+        <div class="col-lg-12">
+            @Html.Partial("_KendoProductsTable")
+        </div>
+    </div>

@@ -21,12 +21,16 @@ namespace DigitalDesign.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            ProductsViewModel model = new ProductsViewModel
+            {
+                PriceTypes = _context.PriceTypes.ToArray()
+            };
+            return View(model);
         }
 
         public ActionResult Products([DataSourceRequest]DataSourceRequest request)
         {
-            IEnumerable<ProductViewModel> data = _context.Products
+            IEnumerable<ProductViewModel> products = _context.Products
                 .Include(product => product.Country)
                 .Include(product => product.Category)
                 .Select(product => new
@@ -47,7 +51,7 @@ namespace DigitalDesign.Controllers
                     Prices = product.Prices
                 });
 
-            return Json(data.ToDataSourceResult(request), JsonRequestBehavior.AllowGet);
+            return Json(products.ToDataSourceResult(request), JsonRequestBehavior.AllowGet);
         }
     }
 }
